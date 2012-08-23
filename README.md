@@ -39,5 +39,5 @@ You can generate a link to load the wp-admin login box - also from the front end
 
 ### Examples
 
-[Click here to view an example of the edit links in action](http://www.designforhumans.co.uk/blog/imgs/overlay.png)
+[Click here to view an example of the edit links in action](http://www.designforhumans.co.uk/blog/imgs/overlay.png)<br/>
 [Click here to view an example of the login overlay ](http://www.designforhumans.co.uk/blog/imgs/login.png)
