@@ -4,7 +4,7 @@ http://www.designforhumans.co.uk
 
 ## Description
 
-This is not a WYSISWYG editor - instead once a user is logged in it loads the wordpress admin panel in an overlay (using the FancyBox jQuery script: <http://fancybox.net/>), you pepper your templates with custom edit links and these show once a user is logged in.
+This plugin allows WordPress sites to be edited from the front end, to save the hassle of visiting **/wp-admin** everytime your clients want to edit part of your site. Once a user is logged in it loads the wordpress admin panel in an overlay (using the FancyBox jQuery script: <http://fancybox.net/>), you trigger the overlay using links placed in your templates, these links only show once a user is logged in (in a similar manner to the default wordpress edit links)
 
 ## Roadmap
 
