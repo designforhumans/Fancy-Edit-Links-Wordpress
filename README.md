@@ -15,7 +15,7 @@ b) Ensure that the edit links don't have to be called using their own function, 
 
 ## Installation
 
-Install the plugin through wordpress in the usual way, then ensure that in your <head> you call the function
+Install the plugin through wordpress in the usual way, then ensure that in your **&gt;head&lt;** you call the function
 	
 	load_editlink_scripts($load_fancybox = true);
 
