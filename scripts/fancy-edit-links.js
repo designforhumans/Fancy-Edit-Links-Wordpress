@@ -1,5 +1,7 @@
 $(function(){
 		   
+		   check_if_preview();
+		   
 		   $('.fancy_edit_frame').fancybox({ 'type' : 'iframe', 'width' : '85%', 'height' : '85%', 'overlayColor' : '#000', 'padding' : '0', 'centerOnScroll' : true, 
 										  
 										  'onClosed' :  function(){
@@ -33,6 +35,37 @@ $(function(){
 											   window.location.reload();
 											   }
 										  });
-		  
+		   
+		 
+
+			function check_if_preview()
+			{
+			
+			if($.getUrlVar('preview') === 'true'){ $('.fancy_edit_link').remove(); }
+			
+				
+			}
+			
+	
 		   
 		   });
+
+
+			$.extend({
+			  getUrlVars: function(){
+				var vars = [], hash;
+				var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+				for(var i = 0; i < hashes.length; i++)
+				{
+				  hash = hashes[i].split('=');
+				  vars.push(hash[0]);
+				  vars[hash[0]] = hash[1];
+				}
+				return vars;
+			  },
+			  getUrlVar: function(name){
+				return $.getUrlVars()[name];
+			  }
+			});
+			
+			
