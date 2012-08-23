@@ -15,7 +15,7 @@ b) Ensure that the edit links don't have to be called using their own function, 
 
 ## Installation
 
-Install the plugin through wordpress in the usual way, then ensure that in your **&gt;head&lt;** you call the function
+Install the plugin through wordpress in the usual way, then ensure that in your **&lt;head&gt;** you call the function
 	
 	load_editlink_scripts($load_fancybox = true);
 
@@ -36,3 +36,8 @@ The first parameter is boolean - if false it will not load fancybox.js, obviousl
 You can generate a link to load the wp-admin login box - also from the front end - place this function in your templates somewhere:
 
 	fancy_login_link($intext = 'Login', $outtext = 'Logout', $class = '')
+
+### Examples
+
+[Click here to view an example of the edit links in action](http://www.designforhumans.co.uk/blog/imgs/overlay.png)
+[Click here to view an example of the login overlay ](http://www.designforhumans.co.uk/blog/imgs/login.png)
