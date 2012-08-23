@@ -23,6 +23,8 @@ The first parameter is boolean - if false it will not load fancybox.js, obviousl
 
 ## Functions
 
+In these examples where a number is used (e.g. 54) this indicates the ID of the post which you want to edit. Instead of hardcoding it, use the get_the_ID() function instead to create a dynamic link
+
 	new_edit_link(54); //edit post with an ID of 54;
 	new_edit_link(54, 'Modify this text'); //edit post with an ID of 54, the link text says 'Modify this text';
 	new_edit_link(); //edit post whichever is the current post in the loop ';
